@@ -33,8 +33,8 @@ cd /usr/local/apache2/htdocs
 echo " === Checking directory permissions for /usr/local/apache2/htdocs"
 ls -ld /usr/local/apache2/htdocs
 
-DL_LINK=${DL_LINK:-https://github.com/5etools-mirror-2/5etools-mirror-2.github.io.git}
-IMG_LINK=${IMG_LINK:-https://github.com/5etools-mirror-2/5etools-img}
+DL_LINK=${DL_LINK:-https://github.com/5etools-mirror-3/5etools-src.git}
+IMG_LINK=${IMG_LINK:-https://github.com/5etools-mirror-3/5etools-img}
 
 echo " === Using GitHub mirror at $DL_LINK"
 if [ ! -d "./.git" ]; then # if no git repository already exists
